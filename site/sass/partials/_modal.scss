@@ -1,4 +1,4 @@
-#modal
+.modal
 {
 	background: #fff;
 	border: 1px solid #d3d3d3;
@@ -31,6 +31,11 @@
 		right: -15px;
 		top: -15px;
 		width: 30px;
+
+		&:hover
+		{
+			background-color: #9595a2;
+		}
 
 		@media (max-width: 979px) {
 			float: right;
@@ -69,7 +74,7 @@
 	.form-container
 	{
 		border-right: 1px dotted #000;
-		width: 310px;
+		width: 300px;
 
 		@media (max-width: 979px) {
 			border-right: 0;
@@ -80,7 +85,7 @@
 	.social-container
 	{
 		margin-left: 40px;
-		width: 220px;
+		width: 230px;
 
 		@media (max-width: 979px) {
 			margin-left: 0;
@@ -94,6 +99,19 @@
 		fieldset
 		{
 			border: 0;
+		}
+
+		.required
+		{
+			label
+			{
+				color: #b94a48;
+			}
+
+			input
+			{
+				border-bottom: 1px solid #b94a48;
+			}
 		}
 
 		label,
