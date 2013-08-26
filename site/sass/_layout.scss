@@ -1,0 +1,17 @@
+@media (max-width: 979px) {
+	body
+	{
+		padding: 0 10px;
+	}
+	
+	.container_12
+	{
+		width: auto;
+
+		[class^=grid]
+		{
+			margin: 0;
+			width: auto;
+		}
+	}
+}
