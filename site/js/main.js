@@ -7,6 +7,8 @@ if (typeof Object.create !== 'function') {
 }
 
 (function ($) {
+	// Some parasitic inheritence because I didn't know what interactions to make
+	
 	var FormModal = Object.create({
 		clearValidation: function ($modal) {
 			$modal.find('fieldset > .required').removeClass('required');
@@ -99,20 +101,24 @@ if (typeof Object.create !== 'function') {
 		event.preventDefault();
 	};
 
-	$('.sign-in').on('click', function () {
+	$('.sign-in').on('click', function (event) {
 		var $modals = $('.modal');
 
 		$modals.hide();
 
 		SignInModal.open();
+
+		event.preventDefault();
 	});
 
-	$('.sign-up').on('click', function () {
+	$('.sign-up').on('click', function (event) {
 		var $modals = $('.modal');
 
 		$modals.hide();
 		
 		SignUpModal.open();
+
+		event.preventDefault();
 	});
 
 	SignInModal.init();
