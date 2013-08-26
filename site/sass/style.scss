@@ -362,13 +362,13 @@
 @import 'fonts';
 @import 'layout';
 
+@import 'buttons/social-buttons';
+
 @import 'partials/modal';
 @import 'partials/sign-in';
 @import 'partials/sign-up';
 
-@import 'buttons/social-buttons';
+@import 'templates/home';
 
 @import 'header';
-@import 'content';
-@import 'hero';
 @import 'footer';
