@@ -458,6 +458,234 @@ a:hover {
     width: auto;
   }
 }
+/* line 2, ../sass/partials/_modal.scss */
+#modal {
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  left: 50%;
+  margin-left: -365px;
+  margin-top: 140px;
+  padding: 60px 75px;
+  position: absolute;
+  top: 0;
+  width: 578px;
+}
+@media (max-width: 979px) {
+  /* line 2, ../sass/partials/_modal.scss */
+  #modal {
+    margin: 0 0 10px;
+    padding: 30px;
+    position: static;
+    width: auto;
+  }
+}
+/* line 21, ../sass/partials/_modal.scss */
+#modal .close {
+  background-color: #aeafbc;
+  border: 0;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  color: #fff;
+  font-family: 'Gloriola Light';
+  font-size: 28px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  width: 30px;
+}
+@media (max-width: 979px) {
+  /* line 21, ../sass/partials/_modal.scss */
+  #modal .close {
+    float: right;
+    position: static;
+  }
+}
+/* line 42, ../sass/partials/_modal.scss */
+#modal h2 {
+  color: #5a5969;
+  font-family: 'Gloriola Light';
+  font-size: 36px;
+  margin-top: 0;
+}
+/* line 49, ../sass/partials/_modal.scss */
+#modal h2 span {
+  font-size: 13px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* line 55, ../sass/partials/_modal.scss */
+#modal h2 a {
+  color: #4776ef;
+}
+/* line 61, ../sass/partials/_modal.scss */
+#modal .modal-content > div {
+  float: left;
+}
+@media (max-width: 979px) {
+  /* line 61, ../sass/partials/_modal.scss */
+  #modal .modal-content > div {
+    float: none;
+  }
+}
+/* line 70, ../sass/partials/_modal.scss */
+#modal .form-container {
+  border-right: 1px dotted #000;
+  width: 310px;
+}
+@media (max-width: 979px) {
+  /* line 70, ../sass/partials/_modal.scss */
+  #modal .form-container {
+    border-right: 0;
+    width: auto;
+  }
+}
+/* line 81, ../sass/partials/_modal.scss */
+#modal .social-container {
+  margin-left: 40px;
+  width: 220px;
+}
+@media (max-width: 979px) {
+  /* line 81, ../sass/partials/_modal.scss */
+  #modal .social-container {
+    margin-left: 0;
+    margin-top: 30px;
+    width: auto;
+  }
+}
+/* line 95, ../sass/partials/_modal.scss */
+#modal form fieldset {
+  border: 0;
+}
+/* line 102, ../sass/partials/_modal.scss */
+#modal form label,
+#modal form input,
+#modal form button[type=submit] {
+  display: block;
+  width: 260px;
+}
+@media (max-width: 979px) {
+  /* line 102, ../sass/partials/_modal.scss */
+  #modal form label,
+  #modal form input,
+  #modal form button[type=submit] {
+    width: 100%;
+  }
+}
+/* line 112, ../sass/partials/_modal.scss */
+#modal form label {
+  color: #5e6079;
+  font-family: 'Proxima Nova Bold';
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+/* line 120, ../sass/partials/_modal.scss */
+#modal form input {
+  border: 0;
+  border-bottom: 1px solid #5e6079;
+  color: #5e6079;
+  font-size: 24px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+/* line 130, ../sass/partials/_modal.scss */
+#modal form button[type=submit] {
+  background-color: #4776ef;
+  border: 0;
+  color: #fff;
+  font-family: 'Proxima Nova Bold';
+  height: 40px;
+  letter-spacing: 1px;
+}
+/* line 141, ../sass/partials/_modal.scss */
+#modal .social-buttons {
+  list-style: none;
+}
+/* line 145, ../sass/partials/_modal.scss */
+#modal .social-buttons li {
+  margin-bottom: 20px;
+}
+/* line 150, ../sass/partials/_modal.scss */
+#modal .social-buttons li:last-child {
+  margin-bottom: 0;
+}
+/* line 155, ../sass/partials/_modal.scss */
+#modal .social-buttons a {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+/* line 2, ../sass/buttons/_social-buttons.scss */
+.social-buttons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 8, ../sass/buttons/_social-buttons.scss */
+.social-buttons a {
+  background-color: #0b1a3b;
+  background-color: rgba(11, 26, 59, 0.3);
+  border: 1px solid #fff;
+  border: 1px solid rbga(255, 255, 255, 0.5);
+  border-radius: 100px;
+  display: block;
+  padding: 10px;
+}
+/* line 19, ../sass/buttons/_social-buttons.scss */
+.social-buttons .button-container {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  display: block;
+  line-height: 20px;
+  padding: 9px 20px 10px;
+}
+/* line 27, ../sass/buttons/_social-buttons.scss */
+.social-buttons .icon {
+  display: block;
+  float: left;
+  padding-right: 15px;
+}
+/* line 34, ../sass/buttons/_social-buttons.scss */
+.social-buttons .button-text {
+  border-left: 1px solid #fff;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-family: 'Proxima Nova Bold';
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 5px 0 4px 10px;
+  text-transform: uppercase;
+}
+/* line 48, ../sass/buttons/_social-buttons.scss */
+.social-buttons .facebook .button-container {
+  background-color: #4060b3;
+}
+/* line 53, ../sass/buttons/_social-buttons.scss */
+.social-buttons .facebook .icon {
+  background: url(../img/fb-icon.png) no-repeat;
+  border-right: 1px solid #334c8d;
+  height: 20px;
+  width: 10px;
+}
+/* line 64, ../sass/buttons/_social-buttons.scss */
+.social-buttons .google .button-container {
+  background-color: #e66251;
+}
+/* line 69, ../sass/buttons/_social-buttons.scss */
+.social-buttons .google .icon {
+  background: url(../img/google-icon.png) no-repeat;
+  border-right: 1px solid #cb5343;
+  height: 22px;
+  width: 10px;
+}
+
 /* line 2, ../sass/_header.scss */
 header {
   height: 100px;
@@ -470,13 +698,15 @@ header #logo {
 }
 /* line 13, ../sass/_header.scss */
 header .header-actions {
+  color: #d1d2e1;
   float: right;
   font-family: 'Proxima Nova Bold';
 }
-/* line 18, ../sass/_header.scss */
+/* line 19, ../sass/_header.scss */
 header .header-actions a {
   color: #5e6079;
   letter-spacing: 1px;
+  margin: 0 10px;
   text-transform: uppercase;
 }
 
@@ -574,66 +804,6 @@ header .header-actions a {
     display: block;
     margin-bottom: 10px;
   }
-}
-/* line 57, ../sass/_hero.scss */
-#hero .social-buttons a {
-  background-color: #0b1a3b;
-  background-color: rgba(11, 26, 59, 0.3);
-  border: 1px solid #fff;
-  border: 1px solid rbga(255, 255, 255, 0.5);
-  border-radius: 100px;
-  display: block;
-  padding: 10px;
-}
-/* line 68, ../sass/_hero.scss */
-#hero .social-buttons .button-container {
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
-  border-radius: 40px;
-  display: block;
-  line-height: 20px;
-  padding: 9px 20px 10px;
-}
-/* line 76, ../sass/_hero.scss */
-#hero .social-buttons .icon {
-  display: block;
-  float: left;
-  padding-right: 15px;
-}
-/* line 83, ../sass/_hero.scss */
-#hero .social-buttons .button-text {
-  border-left: 1px solid #fff;
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
-  color: #fff;
-  font-family: 'Proxima Nova Bold';
-  font-size: 10px;
-  letter-spacing: 1px;
-  padding: 5px 0 4px 10px;
-  text-transform: uppercase;
-}
-/* line 97, ../sass/_hero.scss */
-#hero .social-buttons .facebook .button-container {
-  background-color: #4060b3;
-}
-/* line 102, ../sass/_hero.scss */
-#hero .social-buttons .facebook .icon {
-  background: url(../img/fb-icon.png) no-repeat;
-  border-right: 1px solid #334c8d;
-  height: 20px;
-  width: 10px;
-}
-/* line 113, ../sass/_hero.scss */
-#hero .social-buttons .google .button-container {
-  background-color: #e66251;
-}
-/* line 118, ../sass/_hero.scss */
-#hero .social-buttons .google .icon {
-  background: url(../img/google-icon.png) no-repeat;
-  border-right: 1px solid #cb5343;
-  height: 22px;
-  width: 10px;
 }
 
 /* line 2, ../sass/_footer.scss */

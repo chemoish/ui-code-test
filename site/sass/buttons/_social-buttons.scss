@@ -1,0 +1,76 @@
+.social-buttons
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	a
+	{
+		background-color: #0b1a3b;
+		background-color: rgba(11, 26, 59, 0.3);
+		border: 1px solid #fff;
+		border: 1px solid rbga(255, 255, 255, 0.5);
+		border-radius: 100px;
+		display: block;
+		padding: 10px;
+	}
+
+	.button-container
+	{
+		@include border-radius(40px);
+		display: block;
+		line-height: 20px;
+		padding: 9px 20px 10px;
+	}
+
+	.icon
+	{
+		display: block;
+		float: left;
+		padding-right: 15px;
+	}
+
+	.button-text
+	{
+		border-left: 1px solid #fff;
+		border-left: 1px solid rgba(255, 255, 255, 0.2);
+		color: #fff;
+		font-family: 'Proxima Nova Bold';
+		font-size: 10px;
+		letter-spacing: 1px;
+		padding: 5px 0 4px 10px;
+		text-transform: uppercase;
+	}
+
+	.facebook
+	{
+		.button-container
+		{
+			background-color: #4060b3;
+		}
+
+		.icon
+		{
+			background: url(../img/fb-icon.png) no-repeat;
+			border-right: 1px solid #334c8d;
+			height: 20px;
+			width: 10px;
+		}
+	}
+
+	.google
+	{
+		.button-container
+		{
+			background-color: #e66251;
+		}
+
+		.icon
+		{
+			background: url(../img/google-icon.png) no-repeat;
+			border-right: 1px solid #cb5343;
+			height: 22px;
+			width: 10px;
+		}
+	}
+}

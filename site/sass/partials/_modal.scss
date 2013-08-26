@@ -1,0 +1,161 @@
+#modal
+{
+	background: #fff;
+	border: 1px solid #d3d3d3;
+	left: 50%;
+	margin-left: -365px;
+	margin-top: 140px;
+	padding: 60px 75px;
+	position: absolute;
+	top: 0;
+	width: 578px;
+
+	@media (max-width: 979px) {
+		margin: 0 0 10px;
+		padding: 30px;
+		position: static;
+		width: auto;
+	}
+
+	.close
+	{
+		background-color: #aeafbc;
+		border: 0;
+		@include border-radius(30px);
+		color: #fff;
+		font-family: 'Gloriola Light';
+		font-size: 28px;
+		height: 30px;
+		padding: 0;
+		position: absolute;
+		right: -15px;
+		top: -15px;
+		width: 30px;
+
+		@media (max-width: 979px) {
+			float: right;
+			position: static;
+		}
+	}
+
+	h2
+	{
+		color: #5a5969;
+		font-family: 'Gloriola Light';
+		font-size: 36px;
+		margin-top: 0;
+
+		span
+		{
+			font-size: 13px;
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		}
+
+		a
+		{
+			color: #4776ef;
+		}
+	}
+
+	.modal-content > div
+	{
+		float: left;
+
+		@media (max-width: 979px) {
+			float: none;
+		}
+	}
+
+	.form-container
+	{
+		border-right: 1px dotted #000;
+		width: 310px;
+
+		@media (max-width: 979px) {
+			border-right: 0;
+			width: auto;
+		}
+	}
+
+	.social-container
+	{
+		margin-left: 40px;
+		width: 220px;
+
+		@media (max-width: 979px) {
+			margin-left: 0;
+			margin-top: 30px;
+			width: auto;
+		}
+	}
+
+	form
+	{
+		fieldset
+		{
+			border: 0;
+		}
+
+		label,
+		input,
+		button[type=submit]
+		{
+			display: block;
+			width: 260px;
+
+			@media (max-width: 979px) {
+				width: 100%;
+			}
+		}
+
+		label
+		{
+			color: #5e6079;
+			font-family: 'Proxima Nova Bold';
+			margin-bottom: 10px;
+			text-transform: uppercase;
+		}
+
+		input
+		{
+			border: 0;
+			border-bottom: 1px solid #5e6079;
+			color: #5e6079;
+			font-size: 24px;
+			height: 30px;
+			margin-bottom: 20px;
+		}
+
+		button[type=submit]
+		{
+			background-color: #4776ef;
+			border: 0;
+			color: #fff;
+			font-family: 'Proxima Nova Bold';
+			height: 40px;
+			letter-spacing: 1px;
+		}
+	}
+
+	.social-buttons
+	{
+		list-style: none;
+
+		li
+		{
+			margin-bottom: 20px;
+		}
+
+		li:last-child
+		{
+			margin-bottom: 0;
+		}
+
+		a
+		{
+			border: 0;
+			background-color: transparent;
+			padding: 0;
+		}
+	}
+}

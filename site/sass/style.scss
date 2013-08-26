@@ -362,6 +362,12 @@
 @import 'fonts';
 @import 'layout';
 
+@import 'partials/modal';
+@import 'partials/sign-in';
+@import 'partials/sign-up';
+
+@import 'buttons/social-buttons';
+
 @import 'header';
 @import 'content';
 @import 'hero';
