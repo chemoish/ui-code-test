@@ -13,6 +13,7 @@
 		border-radius: 100px;
 		display: block;
 		padding: 10px;
+		text-decoration: none;
 	}
 
 	.button-container
@@ -47,6 +48,11 @@
 		.button-container
 		{
 			background-color: #4060b3;
+
+			&:hover
+			{
+				background-color: #1e4a9a;
+			}
 		}
 
 		.icon
@@ -63,6 +69,11 @@
 		.button-container
 		{
 			background-color: #e66251;
+
+			&:hover
+			{
+				background-color: #d75b45;
+			}
 		}
 
 		.icon
